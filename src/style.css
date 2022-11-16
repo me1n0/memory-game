@@ -1,52 +1,55 @@
 * {
-    margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cousine", monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: #38603b;
 }
 
 .container {
-    display: grid;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    text-align: center;
-    min-height: 99vh;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 500px;
+  margin-top: 40px;
+  padding: 30px 30px 10px;
+  background-color: transparent;
+  border: 1.5px solid #123828;
+  font-size: 1rem;
+  box-shadow: #123828c8 7px 7px 0px;
 }
 
-h3 {
-    color: #8f8f8f;
-    margin: 1rem 0 1rem 0;
-    font-size: 2rem;
+h1 {
+  color: #123828;
+  margin: 0 0 20px;
+  text-align: center;
 }
 
 .grid {
-    width: 400px;
-    height: 308px;
-    border: 5px solid #ffffff;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 0 10px #c1c1c1;
-    margin-bottom: 8rem;
+  width: 442px;
+  height: 340px;
+  border: 0px solid #ffffff;
 }
 
-.footer {
-    background-color: #c1c1c13d;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    text-align: center;
+.grid img {
+  margin: 5px;
+  border: 0px solid #123828;
 }
 
-p, a {
-    margin-top: 1rem;
-    color: #858585;
-    text-decoration-color: transparent;
+.credits p {
+  font-size: 12px;
+  color: #123a2990;
+  text-decoration-color: transparent;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
 }
 
-a:hover {
-    color: #666666;
+.credits a {
+  color: #123a2990;
+  text-underline-offset: 2px;
+  text-decoration-color: #123a2922;
 }
